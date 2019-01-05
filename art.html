@@ -1,108 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Arts News</title>
-<meta charset="utf-8">
-<link rel="icon" href="sun logo.ico" type="image/x-icon">
-<link rel="shortcut icon" href="sun logo.ico" type="image/x-icon">
-<style>
-#header {  text-shadow : 3px 3px pink ;
-	  float : left ;
-	  font-family : Times, "Times New Roman" , red-serif ;
-	  color : red ; 
-	  font-size : 2em ; }
-ul  { list-style-type : none ; margin :0px; padding : 0 ; overflow : hidden ; border : 5px solid white ;
-	border-radius : 15px ; 
-	background-color : #AD1EC9 ;  }
-li { float : left ;  }
-li a{ display : inline ; color : white ; 
-	text-align : center ; padding : 14px 16px ; 
-	text-decoration : none ; }
-a:link { color : white ; }
- a:visited { color :white ; }
-a:hover { color : red ; }
-a:active { color : red }
-#leftcolumn { float : right ;
-		width : 30% ; }
-#rightcolumn { float : left ;
-		width : 70% ; }
-a { text-decoration : none ; }
-marquee { font-family : Times,"Times New Roman",san-serif ; 
-	  font-size : 1em ;
-	color : red ;}
-p{font-family:Arial New; 
-	width : 840px ;
-	font-size : 1.25em ;
-	margin-left : 35px ; }
-h1 { font-family : Times,"Times New Roman",san-serif ; }
-#bord { border-top : 1px ; border-right : 1px ;
-	border-color : grey ; border-style : solid ; }
-#listn { font-family : Book Antiqua ;
-	font-style : bold ;
-	font-size : 1.25em ; }
-#clearleft { clear : left ; }
-.float{float:right;
-       margin-right:10px;
-       border:3px ridge #000000;
-       overflow:auto;}
-h3 { Font-family : Times,"Times New Roman",san-serif ;
-	font-size : 1.5em ;
-	text-shadow : 3px 3px pink ; }
-figcaption { font-family :Times,"Times New Roman",san-serif ;
-	     font-size : 1.5em ; }
-.floa { float : left ; }
-</style>
-</head>
-<body>
-<div id="header"><img src="sun logo.jpg" alt="sun logo">The Burning Sun Arts News Page</div>
-<br><br><br>
-<ul>
-<li><a href="news.html">Home</a></li>
-<li><a href="art.html">Arts News</a></li>
-<li><a href="world news.html">World News</a></li>
-<li><a href="local news.html">Local News</a></li>
-<li><a href="home.html">Music</a></li>
-<li><a href="movie.html">Movie</a></li>
-<li><a href="Book page.html">Book</a></li>
-<li><a href="Travelling page.html">Travel Guide</a></li>
-</ul>
-<marquee direction="right" width="1280">Welcome From Our News Page<img src="marquee1.gif" height="40"></marquee>
-<hr>
-<div id="leftcolumn">
-<h3>Popular Posts</h3>
-<img class="float"src="arts1.jpg" width="100" height="100"><div id="listn">Oscar Winners 2018: See the Full List</div><br id="clearleft"><br>
-<hr>
-<img class="float"src="arts3.jpg" width="100" height="100"><div id="listn">Name : A Mone Thint Lae Pyae<br>
-Drama : Comady </div><br id="clearleft">
-<hr>
-<img class="float"src="arts2.jfif" width="100" height="120"><div id="listn">Drama:A Korean Oddyssey/ Hwayuki/ Hwayugi<br>
-Genre: fantasy, romance, horror-thriller elements</div>
-<br id="clearleft">
-<hr>
-<img class="float"src="arts4.jfif" width="100" height="120"><div id="listn"> Rating : NR<br>
-Genre :  Action & Adventure, Science Fiction & Fantasy<br>
-Directed By : Pou-Soi Cheang
-</div>
-<hr>
-</div>
-<div rightcolumn">
-<div id="bord">
-<h1>'Black Panther' makers have ideas for sequel</h1>
-<img class="floa" src="arts.jfif">
-<p>There is a 'solid direction' in place already for 'Black Panther 2', said Marvel Studios boss Kevin Feige.<br>
+# Adminator HTML5 Admin Template
+**Adminator** is a responsive Bootstrap 4 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/adminator/index.html
 
-Reportedly, the original 'Black Panther' movie, which stars Chadwick Boseman as T'Challa and his titular alter-ego, may have only just hit screens in February, but Feige has confirmed a sequel will be coming too.<br>
+# Preview
 
-When asked what he could reveal about 'Black Panther 2', the 44-year-old: "Nothing specific to reveal, other than to say we absolutely will do that."<br><br>
+### Screenshot
 
-"One of the favourite pastimes at Marvel Studios is sitting around on a Part One and talking and dreaming about what we would do in a Part Two. There have been plenty of those conversations as we were putting together the first 'Black Panther'. We have ideas and a pretty solid direction on where we want to head with the second one," he added.<br><Br>
+![Adminator admin dashboard template preview](https://colorlib.com/wp/wp-content/uploads/sites/2/adminator-free-admin-dashboard-template.jpg)
 
-'Black Panther' is among the first films by the house of Marvel Studios which predominantly has a black cast and also shows a number of strong women of substance who work as the protagonist T'Challa's allies.<br><br>
+### Demo Site: [Here](https://colorlib.com/polygon/adminator/index.html)
+
+## TOC
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing & Local Development](#installing--local-development)
+- [Files/Folder Structure](#filesfolders-structure)
+- [Deployment](#deployment)
+- [Built With](#built-with)
+- [Changelog](#changelog)
+- [Authors](#authors)
+- [License](#license)
 
 
-Set shortly after 'Captain America: Civil War', 'Black Panther' shows T'Challa returning home to the isolated, technologically-advanced African nation of Wakanda to become king.<br><br>
+## Getting Started
+In order to run **Adminator** on your local machine all what you need to do is to have the prerequisites stated below installed on your machine and follow the installation steps down below.
+
+#### Prerequisites
+  - Node.js
+  - Yarn or NPM
+  - Git
+  - libpng-dev *linux only*
+
+#### Installing & Local Development
+Start by typing the following commands in your terminal in order to get **Adminator** full package on your machine and starting a local development server with live reload feature.
+
+```
+> git clone https://github.com/puikinsh/Adminator-admin-dashboard.git adminator
+> cd adminator
+> npm install
+> npm run dev
+```
 
 
-Distributed by Walt Disney Studios Motion Pictures, 'Black Panther' also features Lupita Nyong'o, Michael B Jordon, Danai Gurira, Letitia Wright, Angela Bassett, Forest Whittaker and Martin Freeman, among others. </p></div>
-</body>
-</html>
+## Files/Folders Structure
+Here is a brief explanation of the template folder structure and some of its main files usage:
+
+```
+└── src                         # Contains all template source files.
+│   └── assets                  # Contains JS, CSS, images and icon fonts.
+│   │   └── scripts             # Contains all JavaScript files.
+│   │   │   └── charts          # Chart.js, Sparkline & Pie Chart plugins init.
+│   │   │   └── chat            # All chat app JS code.
+│   │   │   └── constants       # Template constant values like color values.
+│   │   │   └── datatable       # Date table plugin init.
+│   │   │   └── datepicker      # Bootstrap datepicker init.
+│   │   │   └── email           # All email app code.
+│   │   │   └── fullcalendar    # Fullcalendar plugin init.
+│   │   │   └── googleMaps      # Google maps API integration code.
+│   │   │   └── masonry         # Masonry layout code.
+│   │   │   └── popover         # Bootstrap popover plugin init.
+│   │   │   └── scrollbar       # Perfect scrollbar plugin init.
+│   │   │   └── search          # Topbar toggle search init.
+│   │   │   └── sidebar         # Sidebar JS code.
+│   │   │   └── skycons         # Animated icons plugin init.
+│   │   │   └── utils           # Basic utils used for proper rendering.
+│   │   │   └── vectorMaps      # Vector maps plugin init.
+│   │   │   └── index.js        # Indicator file.
+│   │   │
+│   │   └── static              # Contains the non-code files.
+│   │   │   └── fonts           # Contains icon fonts.
+│   │   │   └── images          # Contains all template images/svg.
+│   │   │
+│   │   └── styles              # Contains all SCSS files.
+│   │       └── spec            # Contains custom SCSS files.
+│   │       │   └── components  # Contains all template components.
+│   │       │   └── generic     # Contains basic scaffolding styles.
+│   │       │   └── screens     # Contains views specific styles.
+│   │       │   └── settings    # Contains all template variables.
+│   │       │   └── tools       # Contains all mixins.
+│   │       │   └── utils       # Contains helper classes.
+│   │       │   └── index.scss  # Indicator file.
+│   │       │
+│   │       └── vendor          # Contains all plugin files & custom styles.
+│   │       └── index.scss      # Indicator file.
+│   │
+│   └── *.html                  # All HTML pages files .
+└── webpack                     # Contains Webpack init code.
+│   └── plugins                 # Contains all Webpack plugins config.
+│   └── rules                   # Contains Loaders config code.
+│   └── config.js               # Contains Webpack config object.
+│   └── devServer.js            # Webpack dev server config code.
+│   └── manifest.js             # All build system constants.
+│
+└── .babelrc                    # Babel ES6 Transpiler.
+└── .editorconfig               # Keep same coding styles between code editors.
+└── .eslintrc.yml               # JavaScript Linting.
+└── .gitattributes              # Git Attributes.
+└── .gitignore                  # Ignored files in Git.
+└── .stylelintrc.yml            # SCSS/CSS Linting.
+└── browserslist                # Supported Browsers.
+└── CHANGELOG.md                # Versioning.
+└── package.json                # Package metadata.
+└── README.md                   # Manual file.
+└── webpack.config.js           # Webpack main config file.
+└── yarn.lock                   # Yarn metadata.
+```
+
+## Deployment
+In deployment process, you have two commands:
+
+1. Build command
+Used to generate the final result of compiling src files into build folder. This can be achieved by running the following command:
+```
+> npm run build
+```
+
+2. Preview command
+Used to create a local dev server in order to preview the final output of build process. This can be achieved by running the following command:
+```
+> npm run preview
+```
+
+## Built With
+- [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.js.org/)
+- [Eslint](https://eslint.org/)
+- [Sass](http://sass-lang.com/)
+- [Postcss](http://postcss.org/)
+- [Stylelint](https://stylelint.io/)
+- [Bootstrap](http://getbootstrap.com/)
+- [Chart.js](http://www.chartjs.org/)
+- [Datatables](https://datatables.net/)
+- [Easy Pie Chart](http://rendro.github.io/easy-pie-chart/)
+- [Fullcalendar](https://fullcalendar.io/)
+- [Jquery](https://jquery.com/)
+- [Jquery Sparkline](https://omnipotent.net/jquery.sparkline/)
+- [Jvectormap](http://jvectormap.com/)
+- [Load Google Maps API](https://github.com/yuanqing/load-google-maps-api)
+- [Lodash](https://lodash.com/)
+- [Masonry](https://masonry.desandro.com/)
+- [Moment](https://momentjs.com/)
+- [Perfect Scrollbar](https://github.com/utatti/perfect-scrollbar)
+- [Skycons](https://darkskyapp.github.io/skycons/)
+- [Fontawesome](http://fontawesome.io/)
+- [Themify Icons](https://themify.me/themify-icons)
+- [Roboto Font](https://fonts.google.com/specimen/Roboto)
+- [Bootstrap Datepicker](https://bootstrap-datepicker.readthedocs.io/en/latest/)
+
+## Changelog
+#### V 1.0.0
+Initial Release
+
+## Authors
+[Colorlib](https://colorlib.com)
+
+## More info
+- [Bootstrap Dashboards](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/)
+- [Bootstrap Templates](https://colorlib.com/wp/free-bootstrap-templates/)
+- [HTML Templates](https://colorlib.com/wp/free-html-website-templates/)
+- [Free Admin Dashboards](https://colorlib.com/wp/free-html5-admin-dashboard-templates/)
+- [Website Templates](https://colorlib.com/wp/templates/)
+- [Free CSS Templates](https://colorlib.com/wp/free-css-website-templates/)
+- [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/)
+
+## License
+
+Adminator is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. But you always need to state that Colorlib is the original author of this template.
